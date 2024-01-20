@@ -1,0 +1,95 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.base {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+.form-base {
+  width: 35%;
+  /* margin: auto; */
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+  /* border-radius: 10px; */
+}
+.form-base h1 {
+  padding: 1rem;
+}
+.image {
+  width: 40%;
+  height: 70%;
+  background-image: url("https://source.unsplash.com/500x500/?document");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+form {
+  width: 90%;
+  height: 80%;
+  border-radius: 5px;
+  background-color: rgb(121, 200, 227);
+  color: white;
+  padding: 2rem;
+  position: relative;
+}
+input {
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  margin: 0.5rem 0rem;
+}
+label {
+  padding: 0.5rem;
+  color: black;
+}
+input[type="checkbox"] {
+  position: absolute;
+  left: 0%;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  color: blue;
+}
+
+button {
+  padding: 0.5rem;
+  width: 40%;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  color: white;
+  transition: all 0.2s ease-in-out;
+  background-color: blue;
+  margin-bottom: 10%;
+  position: absolute;
+  left: 30%;
+  top: 60%;
+}
+button:hover {
+  color: blue;
+  cursor: pointer;
+  background-color: white;
+}
+p {
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  color: black;
+}
