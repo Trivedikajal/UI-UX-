@@ -1,0 +1,26 @@
+*
+{
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+}
+.container
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(227, 227, 227);
+    border: none;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse; 
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  td, th {
+    border: 1px solid #b8ccbc;
+    text-align: center;
+    padding: 8px;
+  }
