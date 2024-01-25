@@ -1,0 +1,46 @@
+*
+{
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+}
+header{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+
+#headersection1{
+    font-size: 10px;
+    display:flex;
+    justify-content: right;
+    list-style: none;
+    padding: 5px;
+    gap: 10px;
+}
+
+#list2{
+    margin: 10px;
+    font-size: 13px;
+    display:flex;
+    justify-content: right;
+    gap: 10px;
+    list-style: none;
+    padding: 5px;
+    color: black;
+}
+
+#kietlogo>img{
+    width: 200px;
+}
+
+#headersection2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#headersection1 li a ,#headersection2 li a {
+    text-decoration: none;
+    color: white;
+}
