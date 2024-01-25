@@ -1,0 +1,36 @@
+*
+{
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+  }
+
+  h2
+  {
+    padding: 1rem;
+  }
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    background-color: lightcyan;
+    margin: 1rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+    color: blue;
+    background-color: black;
+  }
+
